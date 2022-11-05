@@ -1,0 +1,180 @@
+.page-detail .btn-hairline-l {
+    position: relative
+}
+
+.page-detail .btn-hairline-l:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 1px;
+    height: 90%;
+    pointer-events: none;
+    background: #e3e8ee;
+    content: " ";
+    transform: scaleX(.5)
+}
+
+.page-detail .btn-hairline-r {
+    position: relative
+}
+
+.page-detail .btn-hairline-r:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 1px;
+    height: 90%;
+    pointer-events: none;
+    background: #e3e8ee;
+    content: " ";
+    transform: scaleX(.5)
+}
+
+.page-detail .btn-hairline-t {
+    position: relative
+}
+
+.page-detail .btn-hairline-t:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    pointer-events: none;
+    background: #e3e8ee;
+    content: " ";
+    transform: scaleY(.5)
+}
+
+.page-detail-code .code-wrap {
+    box-shadow: 0 1.33333vw 2.66667vw .8vw rgba(0, 0, 0, .2)
+}
+
+.page-detail-code .tip {
+    height: 5.33333vw;
+    font-size: 3.2vw;
+    color: #fff
+}
+
+.page-detail-code--empty {
+    padding-top: 32vw
+}
+
+.page-detail-code .now-time-tip {
+    padding-top: 1.33333vw;
+    height: 17.06667vw;
+    line-height: 8.53333vw;
+    border-radius: 8.53333vw
+}
+
+.page-detail-code .times {
+    line-height: 0;
+    text-align: center;
+    top: -2.66667vw;
+    position: relative
+}
+
+.dialog-title {
+    height: 13.33333vw;
+    font-weight: 700;
+    line-height: 13.33333vw;
+    color: #07c167
+}
+
+.dialog-item, .dialog-title {
+    width: 100%;
+    text-align: center
+}
+
+.cat-tip {
+    height: 5.33333vw
+}
+
+.cat-tip .tip-icon {
+    margin-top: .8vw
+}
+
+.page-detail .tip, .page-early-termination .tip {
+    height: 5.33333vw;
+    font-size: 3.2vw;
+    color: #fff
+}
+
+.bus-need-report-apply-modal .content {
+    margin: 2.66667vw 0;
+    padding: 0 5.33333vw
+}
+
+.bus-need-report-apply-modal .content p {
+    margin: 0;
+    color: #657180
+}
+
+.bus-need-report-apply-modal .content .select {
+    margin: 5.33333vw 0;
+    border: 1px solid #dddee1;
+    border-radius: 1.06667vw;
+    height: 8vw;
+    display: flex;
+    padding: 0;
+    text-align: left;
+    text-indent: 2.66667vw
+}
+
+.page-scope .anchorBL {
+    display: none
+}
+
+.page-scope .location-icon {
+    right: 5.33333vw;
+    bottom: 32vw;
+    width: 10.66667vw;
+    height: 10.66667vw
+}
+
+.page-scope .location-status .status-icon {
+    width: 2.66667vw;
+    height: 2.66667vw
+}
+
+.page-scope .flag-address {
+    font-size: 3.73333vw
+}
+
+.page-current-approver .tip {
+    height: 5.33333vw;
+    font-size: 3.2vw;
+    color: #fff
+}
+
+.bus-flow-chart-modal .flow-content {
+    max-height: 50vh
+}
+
+.bus-flow-chart-modal .flow-content .content-list {
+    align-items: flex-start
+}
+
+.hairline-t-n {
+    position: relative
+}
+
+.hairline-t-n:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    pointer-events: none;
+    background: #e3e8ee;
+    content: " ";
+    transform: scaleY(.5)
+}

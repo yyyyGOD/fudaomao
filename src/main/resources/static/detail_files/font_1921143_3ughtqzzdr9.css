@@ -1,0 +1,487 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 1921143 */
+  src: url('//at.alicdn.com/t/font_1921143_3ughtqzzdr9.woff2?t=1631090223031') format('woff2'),
+       url('//at.alicdn.com/t/font_1921143_3ughtqzzdr9.woff?t=1631090223031') format('woff'),
+       url('//at.alicdn.com/t/font_1921143_3ughtqzzdr9.ttf?t=1631090223031') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconMP3:before {
+  content: "\e676";
+}
+
+.iconcomprehensiveEvaluation:before {
+  content: "\e677";
+}
+
+.iconhandwritten:before {
+  content: "\e675";
+}
+
+.iconrecommend_template:before {
+  content: "\e674";
+}
+
+.iconcollect_solid:before {
+  content: "\e66f";
+}
+
+.iconcollect_hollow:before {
+  content: "\e670";
+}
+
+.iconshare_cancel:before {
+  content: "\e671";
+}
+
+.iconshare:before {
+  content: "\e672";
+}
+
+.iconreference:before {
+  content: "\e673";
+}
+
+.icontemplate_square:before {
+  content: "\e66e";
+}
+
+.iconmove_question:before {
+  content: "\e66d";
+}
+
+.iconclear_signature:before {
+  content: "\e657";
+}
+
+.iconbinding_parentInfo:before {
+  content: "\e66c";
+}
+
+.iconwarning:before {
+  content: "\e66b";
+}
+
+.iconpreview:before {
+  content: "\e669";
+}
+
+.iconrestart:before {
+  content: "\e66a";
+}
+
+.iconcommunicate_parentWithSchool:before {
+  content: "\e668";
+}
+
+.iconviewAll:before {
+  content: "\e667";
+}
+
+.iconperson:before {
+  content: "\e666";
+}
+
+.iconpersonalized_notification:before {
+  content: "\e665";
+}
+
+.iconcopy_question:before {
+  content: "\e663";
+}
+
+.iconlogic:before {
+  content: "\e664";
+}
+
+.iconemail_address:before {
+  content: "\e61a";
+}
+
+.iconfill_cellPhoneNumber:before {
+  content: "\e64d";
+}
+
+.icondelete_option:before {
+  content: "\e64e";
+}
+
+.iconfill_address:before {
+  content: "\e64f";
+}
+
+.iconadd_option:before {
+  content: "\e650";
+}
+
+.iconscale:before {
+  content: "\e651";
+}
+
+.iconmove_option:before {
+  content: "\e652";
+}
+
+.iconpicture_voting:before {
+  content: "\e653";
+}
+
+.iconmultiple_choice:before {
+  content: "\e654";
+}
+
+.iconfill_idNumber:before {
+  content: "\e655";
+}
+
+.iconremark:before {
+  content: "\e656";
+}
+
+.iconsingle_choice:before {
+  content: "\e658";
+}
+
+.iconselect_dateAndTime:before {
+  content: "\e659";
+}
+
+.iconselect_national:before {
+  content: "\e65a";
+}
+
+.icontext_input:before {
+  content: "\e65b";
+}
+
+.icontext_voting:before {
+  content: "\e65c";
+}
+
+.iconselect_student:before {
+  content: "\e65d";
+}
+
+.iconselect_politicsStatus:before {
+  content: "\e65e";
+}
+
+.iconselect_class:before {
+  content: "\e65f";
+}
+
+.iconupload_picture:before {
+  content: "\e660";
+}
+
+.iconhandwritten_signature:before {
+  content: "\e661";
+}
+
+.iconnumber_input:before {
+  content: "\e662";
+}
+
+.iconcomputer:before {
+  content: "\e64c";
+}
+
+.iconsubscribe:before {
+  content: "\e64b";
+}
+
+.iconarrow:before {
+  content: "\e64a";
+}
+
+.iconOperation_log:before {
+  content: "\e647";
+}
+
+.iconStudent_data1:before {
+  content: "\e648";
+}
+
+.iconachievement:before {
+  content: "\e649";
+}
+
+.iconStudent_data:before {
+  content: "\e646";
+}
+
+.iconzip:before {
+  content: "\e645";
+}
+
+.iconhistory:before {
+  content: "\e644";
+}
+
+.iconStatistical_table:before {
+  content: "\e642";
+}
+
+.iconStatistical_chart:before {
+  content: "\e643";
+}
+
+.iconshrink:before {
+  content: "\e640";
+}
+
+.iconsymmetry:before {
+  content: "\e641";
+}
+
+.iconexport:before {
+  content: "\e63f";
+}
+
+.icondata:before {
+  content: "\e63e";
+}
+
+.icondownload:before {
+  content: "\e63d";
+}
+
+.iconvoice:before {
+  content: "\e63a";
+}
+
+.iconstop:before {
+  content: "\e63b";
+}
+
+.iconplay:before {
+  content: "\e63c";
+}
+
+.iconrecording:before {
+  content: "\e639";
+}
+
+.icontriangle:before {
+  content: "\e638";
+}
+
+.icondelete11:before {
+  content: "\e637";
+}
+
+.icondelete:before {
+  content: "\e636";
+}
+
+.iconfinish:before {
+  content: "\e635";
+}
+
+.iconfamily:before {
+  content: "\e634";
+}
+
+.icondormitory:before {
+  content: "\e633";
+}
+
+.iconpdf:before {
+  content: "\e62f";
+}
+
+.iconpptx:before {
+  content: "\e630";
+}
+
+.iconxls:before {
+  content: "\e631";
+}
+
+.icondoc:before {
+  content: "\e632";
+}
+
+.iconforward:before {
+  content: "\e62e";
+}
+
+.icondelete1:before {
+  content: "\e62d";
+}
+
+.iconunfold:before {
+  content: "\e62c";
+}
+
+.iconsure2:before {
+  content: "\e62b";
+}
+
+.iconContact_me:before {
+  content: "\e62a";
+}
+
+.iconlocate:before {
+  content: "\e629";
+}
+
+.icongroup:before {
+  content: "\e627";
+}
+
+.iconfaculty:before {
+  content: "\e628";
+}
+
+.iconlike:before {
+  content: "\e626";
+}
+
+.iconpeople1:before {
+  content: "\e624";
+}
+
+.iconround:before {
+  content: "\e625";
+}
+
+.iconalert:before {
+  content: "\e623";
+}
+
+.iconorganization:before {
+  content: "\e622";
+}
+
+.iconSet_up:before {
+  content: "\e621";
+}
+
+.iconfilter:before {
+  content: "\e620";
+}
+
+.iconclose2:before {
+  content: "\e61f";
+}
+
+.iconclose1:before {
+  content: "\e61e";
+}
+
+.iconcheck:before {
+  content: "\e61d";
+}
+
+.iconphone:before {
+  content: "\e61c";
+}
+
+.iconedit:before {
+  content: "\e61b";
+}
+
+.iconcamera:before {
+  content: "\e619";
+}
+
+.iconcycle:before {
+  content: "\e618";
+}
+
+.iconOverview:before {
+  content: "\e617";
+}
+
+.iconright-arrow:before {
+  content: "\e616";
+}
+
+.icontask:before {
+  content: "\e615";
+}
+
+.iconnotice:before {
+  content: "\e614";
+}
+
+.iconsure:before {
+  content: "\e611";
+}
+
+.iconquestion:before {
+  content: "\e612";
+}
+
+.iconsmall-shield:before {
+  content: "\e613";
+}
+
+.iconsearch:before {
+  content: "\e610";
+}
+
+.iconcollect_message:before {
+  content: "\e60e";
+}
+
+.iconNotice:before {
+  content: "\e60f";
+}
+
+.iconLeave:before {
+  content: "\e603";
+}
+
+.iconpeople:before {
+  content: "\e604";
+}
+
+.iconactivity:before {
+  content: "\e605";
+}
+
+.iconShut_down:before {
+  content: "\e606";
+}
+
+.iconCheck_bed:before {
+  content: "\e607";
+}
+
+.iconremind:before {
+  content: "\e608";
+}
+
+.iconHome:before {
+  content: "\e609";
+}
+
+.iconSign_in:before {
+  content: "\e60a";
+}
+
+.iconLog:before {
+  content: "\e60b";
+}
+
+.iconreport:before {
+  content: "\e60c";
+}
+
+.iconattention:before {
+  content: "\e60d";
+}
+
+.iconclose:before {
+  content: "\e602";
+}
+

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0;">
+    <link rel="icon" href="./favicon.ico">
+    <title>请假详情</title>
+    <link href="./detail_files/chunk-707d1e16.897ede19.css" rel="prefetch">
+    <!--<link href="./detail_files/page-home.9e84349f.css" rel="prefetch">-->
+    <link href="./detail_files/chunk-707d1e16.810efc2a.js" rel="prefetch">
+    <!--<link href="./detail_files/page-home.13a3be5b.js" rel="prefetch">-->
+    <link href="./detail_files/chunk-common.9b84c9e5.css" rel="preload" as="style">
+    <link href="./detail_files/chunk-vendors.22137934.css" rel="preload" as="style">
+    <link href="./detail_files/home.7482c40f.css" rel="preload" as="style">
+    <link href="./detail_files/chunk-common.af002347.js" rel="preload" as="script">
+    <link href="./detail_files/chunk-vendors.c84aebba.js" rel="preload" as="script">
+    <link href="./detail_files/home.1d995f43.js" rel="preload" as="script">
+    <link href="./detail_files/chunk-vendors.22137934.css" rel="stylesheet">
+    <link href="./detail_files/chunk-common.9b84c9e5.css" rel="stylesheet">
+    <link href="./detail_files/home.7482c40f.css" rel="stylesheet">
+    <style type="text/css" abt="234"></style>
+    <link rel="stylesheet" href="./detail_files/font_1921143_3ughtqzzdr9.css">
+    <link rel="stylesheet" type="text/css" href="./detail_files/chunk-707d1e16.897ede19.css">
+    <script charset="utf-8" src="./detail_files/chunk-707d1e16.810efc2a.js"></script>
+    <style type="text/css">._th-container ._th-item {
+        margin-bottom: 3px;
+        position: relative;
+        width: 0;
+        height: 0;
+        cursor: pointer;
+        opacity: .3;
+        background-color: aquamarine;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 30px;
+        -webkit-transition: all .35s;
+        -o-transition: all .35s;
+        transition: all .35s;
+        right: 30px
+    }
+
+    ._th-container ._th-item, ._th-container ._th-click-hover, ._th_cover-all-show-times ._th_times {
+        -webkit-box-shadow: -3px 4px 12px -5px black;
+        box-shadow: -3px 4px 12px -5px black
+    }
+
+    ._th-container:hover ._th-item._item-x2 {
+        margin-left: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px
+    }
+
+    ._th-container:hover ._th-item._item-x-2 {
+        margin-left: 17px;
+        width: 38px;
+        height: 38px;
+        line-height: 38px
+    }
+
+    ._th-container:hover ._th-item._item-xx2 {
+        width: 36px;
+        height: 36px;
+        margin-left: 16px;
+        line-height: 36px
+    }
+
+    ._th-container:hover ._th-item._item-xx-2 {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        margin-left: 14px
+    }
+
+    ._th-container:hover ._th-item._item-reset {
+        width: 30px;
+        line-height: 30px;
+        height: 30px;
+        margin-left: 10px
+    }
+
+    ._th-click-hover {
+        position: relative;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        height: 45px;
+        width: 45px;
+        cursor: pointer;
+        opacity: .3;
+        border-radius: 100%;
+        background-color: aquamarine;
+        text-align: center;
+        line-height: 45px;
+        right: 0
+    }
+
+    ._th-container:hover {
+        left: -5px
+    }
+
+    ._th-container {
+        font-size: 12px;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        left: -35px;
+        top: 20%;
+        position: fixed;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 100000;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+
+    ._th-container ._th-item:hover {
+        opacity: .8;
+        background-color: #5fb492;
+        color: aliceblue
+    }
+
+    ._th-container ._th-item:active {
+        opacity: .9;
+        background-color: #1b3a26;
+        color: aliceblue
+    }
+
+    ._th-container:hover ._th-click-hover {
+        opacity: .8
+    }
+
+    ._th-container:hover ._th-item {
+        opacity: .6;
+        right: 0
+    }
+
+    ._th-container ._th-click-hover:hover {
+        opacity: .8;
+        background-color: #5fb492;
+        color: aliceblue
+    }
+
+    ._th_cover-all-show-times {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        opacity: 1;
+        font-weight: 900;
+        font-size: 30px;
+        color: #4f4f4f;
+        background-color: rgba(0, 0, 0, 0.1)
+    }
+
+    ._th_cover-all-show-times._th_hidden {
+        z-index: -99999;
+        opacity: 0;
+        -webkit-transition: 1s all;
+        -o-transition: 1s all;
+        transition: 1s all
+    }
+
+    ._th_cover-all-show-times ._th_times {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background-color: rgba(127, 255, 212, 0.51);
+        text-align: center;
+        line-height: 300px;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        margin-top: -150px;
+        margin-right: -150px
+    }</style>
+    <!--<script type="text/javascript" async="" charset="utf-8" src="./detail_files/abclite-2063-s.js"></script>-->
+
+
+    <link rel="stylesheet" href="./detail_files/font_1921143_3ughtqzzdr9(1).css">
+    <script type="text/javascript" charset="utf-8" src="./detail_files/saved_resource"></script>
+    <!--<script type="text/javascript" async="" charset="utf-8" src="./detail_files/abclite-2063-s(1).js"></script>-->
+    <script type="text/javascript" charset="utf-8" src="./detail_files/saved_resource(1)"></script>
+    <!--<script type="text/javascript" async="" charset="utf-8" src="./detail_files/abclite-2063-s(2).js"></script>-->
+</head>
+
+<body style="">
+
+<noscript><strong>We're sorry but 请假 doesn't work properly without JavaScript enabled. Please enable it to
+    continue.</strong></noscript>
+<div id="app"><!---->
+    <div class="page-detail flex-col h-screen ios-touch-scroll relative">
+        <div class="flex-1 van-tabs van-tabs--line">
+            <div class="van-tabs__wrap van-hairline--top-bottom">
+                <div role="tablist" class="van-tabs__nav van-tabs__nav--line">
+                    <div role="tab" aria-selected="true" class="van-tab van-tab--active"><span
+                            class="van-tab__text van-tab__text--ellipsis">请假信息</span></div>
+                    <div role="tab" class="van-tab" onclick="window.open('./code.html','_self')"><span
+                            class="van-tab__text van-tab__text--ellipsis">核验二维码</span></div>
+                    <div class="van-tabs__line"
+                         style="width: 90px; transform: translateX(90px) translateX(-50%); transition-duration: 0.3s;"></div>
+                </div>
+            </div>
+            <div class="van-tabs__content">
+                <div role="tabpanel" class="van-tab__pane" style="">
+                    <div class="flex-col h-screen flex-1 overflow-hidden">
+                        <div class="flex-1 overflow-y-auto"><span><div
+                                class="cat-tip flex-center font-white font-12 bg-warning"><i
+                                class="tip-icon iconfont iconquestion" style="font-size: 3.73333vw;"></i><div
+                                class="text-trunc"> 如何销假？ </div></div></span>
+                            <div class="cat-status-flag no-shrink" info="[object Object]">
+                                <div class="flag-dom relative flag-success"><span class="personal-info absolute">个人信息 &gt;</span>
+                                    <div class="flag-text">
+                                        <div class="status-svg-text"><i class="iconfont iconsure2"
+                                                                        style="font-size: 5.33333vw; color: rgb(255, 255, 255);"></i><span>审批已通过</span>
+                                        </div>
+                                        <div class="status-text-bold"> 正在休假中</div>
+                                    </div>
+                                    <div class="dynamic-strip no-shrink">
+                                        <div class="now-time"> 当前时间:2021-12-26 18:49:23</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-detail-info" flag="6" now-time-text="当前时间:2021-12-26 18:49:23">
+                                <div class="cat-flow-leave-meta hairline-b py-10 font-12 bg-white px-20 no-shrink">
+                                    <div class="flex">
+                                        <div class="flex mb-5 flex-1">
+                                            <div class="font-light no-shrink row-label"> 请假类型：</div>
+                                            <div class="font-normal flex-1 mr-5"> 请假离校但是不离开</div>
+                                        </div>
+                                        <div class="flex mb-5 flex-1">
+                                            <div class="font-light no-shrink row-label"> 需要离校：</div>
+                                            <div class="flex-1 mr-5"><span class="font-normal">否</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="flex mb-5">
+                                        <div class="font-light no-shrink row-label"> 销假规则：</div>
+                                        <div class="font-normal flex-1 mr-5"><span class="font-warning">离校请假需要销假，非离校请假无需销假</span><span
+                                                class="font-primary ml-5">查看 &gt;</span></div>
+                                    </div>
+                                    <div class="flex">
+                                        <div class="font-light no-shrink"> 实际休假时间：</div>
+                                        <div class="font-normal flex-1 mr-4"><span>-</span></div>
+                                    </div>
+                                </div>
+                                <span><div class="cat-leave-detail hairline-b hairline-t px-20 bg-white py-10 my-10"><!----><div
+                                        class="font-dark font-14 mb-10"> 我的 请假申请 </div><!----><div
+                                        class="flex mb-5 font-12 ai-center relative"><div
+                                        class="totalDays pin-t pin-r absolute font-14 bold px-10 py-5 font-primary radius-small"> 6小时02分 </div><div
+                                        class="font-light no-shrink row-label"> 开始时间： </div><div
+                                        class="font-normal flex-1 ml-5 bold"> 12-26 17:49 </div></div><div
+                                        class="flex mb-5 font-12 ai-center"><div class="font-light no-shrink row-label"> 结束时间： </div><div
+                                        class="font-normal flex-1 ml-5 bold"> 12-26 22:49 </div></div><div
+                                        class="flex mb-5 font-12 ai-center"><div class="font-light no-shrink row-label"> 审批流程： </div><div
+                                        class="font-normal flex-1 ml-5"> 共2步 <span
+                                        class="font-primary">查看&gt;</span></div></div><!----><!----><div
+                                        class="flex mb-5 font-12 ai-start mb-5"><div
+                                        class="font-light no-shrink row-label"> 请假原因： </div><div
+                                        class="font-normal flex-1 ml-5 break-all">  </div></div><!----><div
+                                        class="flex mb-5 font-12 ai-center"><div class="font-light no-shrink row-label"> 发起位置： </div><div
+                                        class="font-normal flex-1 ml-5"><span href="javascript:void(0)" class="location"
+                                                                              style="color: rgb(51, 153, 255); cursor: pointer;"></span></div></div><div
+                                        class="flex mb-5 font-12 ai-center"><div class="font-light no-shrink row-label"
+                                                                                 style="width: 16vw;"> 抄送人： </div><div
+                                        class="font-normal flex-1 ml-5"><span class="location">无</span></div></div>
+                                    <!----><div class="flex mb-5 font-12 ai-start"><div
+                                            class="font-light no-shrink row-label" style="width: 16vw;"> 宿舍信息： </div><div
+                                            class="font-normal flex-1 ml-5 break-all"> - </div></div><!----></div><div
+                                        class="py-10 font-12 bg-white px-20 my-10 hairline-t hairline-b"><span
+                                        class="font-14 font-dark">审批流程记录</span><div class="cat-audit-list mt-10"><div
+                                        class="comp-flow relative"><div class="line absolute z-index-0"></div><div
+                                        class="flow-title flex jc-between ai-start relative"><div
+                                        class="flex ai-center"><i
+                                        class="mr-5 no-shrink bg-white z-index-1 absolute pin-l pin-t iconfont iconround font-primary"
+                                        style="font-size: 5.33333vw; top: -0.53333vw;"></i><span class="ml-20 mr-5"
+                                                                                                 style="margin-left: 8vw;">null - 发起申请</span></div><div
+                                        class="font-light ai-center no-shrink" style="margin-top: 0.53333vw;"><span>12-26 17:49</span></div></div><div
+                                        class="flow-content py-10"><!----></div></div><div class="comp-flow relative"><!----><div
+                                        class="flow-title flex jc-between ai-start relative"><div
+                                        class="flex ai-center"><i
+                                        class="mr-5 no-shrink bg-white z-index-1 absolute pin-l pin-t iconfont iconround font-success"
+                                        style="font-size: 5.33333vw; top: -0.53333vw;"></i><span class="ml-20 mr-5"
+                                                                                                 style="margin-left: 8vw;">一级：null - 审批<span
+                                        style="color:#00ca75;">通过</span></span></div><div
+                                        class="font-light ai-center no-shrink" style="margin-top: 0.53333vw;"><span>12-26 18:19</span></div></div><div
+                                        class="flow-content py-10 pb-10"><div
+                                        class="option-tip p-5 radius-small bg-grey border-normal"><div
+                                        data-v-8d6e9510="" class="cat-approve-opinion font-light font-12 relative close"
+                                        style="-webkit-box-orient: vertical;">
+审批意见：无
+                                    <!----><!----><!----></div><!----><!----></div></div></div>
+
+<div class="comp-flow relative"><!----><div class="flow-title flex jc-between ai-start relative"><div
+        class="flex ai-center"><i
+        class="mr-5 no-shrink bg-white z-index-1 absolute pin-l pin-t iconfont iconround font-success"
+        style="font-size: 5.33333vw; top: -0.53333vw;"></i><span class="ml-20 mr-5" style="margin-left: 8vw;">二级：null - 审批<span
+        style="color:#00ca75;">通过</span></span></div><div class="font-light ai-center no-shrink"
+                                                          style="margin-top: 0.53333vw;"><span>12-26 18:19</span></div></div><div
+        class="flow-content py-10 pb-10"><div class="option-tip p-5 radius-small bg-grey border-normal"><div
+        data-v-8d6e9510="" class="cat-approve-opinion font-light font-12 relative close"
+        style="-webkit-box-orient: vertical;">
+    审批意见：无
+    <!----><!----><!----></div><!----><!----></div></div></div>
+</div></div></span><!----><!----><!----></div>
+                        </div>
+                        <span class="no-shrink"><div class="btn-area flex jc-between no-shrink"><!----><div
+                                class="cat-button flex-1 flex-center radius- false false btn-hairline-t"
+                                style="font-size: 4.26667vw; background: rgb(255, 255, 255); height: 11.7333vw; width: auto;"><!----><div
+                                class="flex-center"> 转发 </div><!----></div><!----><div
+                                class="cat-button flex-1 flex-center radius- false false btn-hairline-l btn-hairline-t"
+                                style="font-size: 4.26667vw; background: rgb(255, 255, 255); height: 11.7333vw; width: auto;"><!----><div
+                                class="flex-center"> 申请续假 </div><!----></div><!----><div
+                                class="cat-button flex-1 flex-center radius- false false"
+                                style="color: rgb(255, 255, 255); font-size: 4.26667vw; background: rgb(51, 153, 255); height: 11.7333vw; width: auto;"><!----><div
+                                class="flex-center"> 提前结束 </div><!----></div></div><!----><!----><div
+                                class="cat-share-popup"><div class="flex-col van-overlay" style="display: none;"><div
+                                class="flex jc-end"><i class="forward mr-20 iconfont iconforward"
+                                                       style="font-size: 16vw; color: rgb(255, 255, 255); display: inline-block; transform: rotate(-30deg);"></i></div><div
+                                class="forward-text text-center font-white mr-20 mt-10">
+点击右上角发送给朋友
+</div></div></div><!----></span></div>
+                </div>
+                <div role="tabpanel" class="van-tab__pane" style="display: none;"><!----></div>
+            </div>
+        </div>
+        <div class="cat-personal-modal flex-center flex-1 h-screen w-screen h-screen absolute pin-l pin-t"
+             style="display: none;">
+            <div class="personal-info-box px-15 py-15 radius-normal overflow-hidden">
+                <div class="info-box-title font-16 font-normal text-center pb-15 relative"><span
+                        class="font-bold">个人信息</span><i class="absolute close-icon iconfont iconclose1"
+                                                        style="font-size: 4.8vw; color: rgb(101, 113, 128);"></i></div>
+                <div class="info-box-content overflow-y-auto">
+                    <div class="row-wrap">
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 照片：</div>
+                            <div class="content-row-value flex-1"> -</div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 姓名：</div>
+                            <div class="content-row-value flex-1"> null</div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 学号：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 性别：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 年级：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 学院：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 专业：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 班级：</div>
+                            <div class="content-row-value flex-1"> </div>
+                        </div>
+                        <div class="box-content-row font-14 font-normal font-bold flex mb-10 ai-start">
+                            <div class="content-row-label mr-5 no-shrink"> • 宿舍：</div>
+                            <div class="content-row-value flex-1"> -</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<script src="./detail_files/aliyun-oss-sdk-5.0.1.min.js"></script>-->
+<!--<script src="./detail_files/baidujsSdk@2.js"></script>-->
+<script type="text/javascript" src="./detail_files/getscript"></script>
+<script type="text/javascript" src="./detail_files/getscript"></script>
+<!--<script src="./detail_files/area.js"></script>-->
+<script src="./detail_files/api"></script>
+<script type="text/javascript" src="./detail_files/getscript(1)"></script>
+<script type="text/javascript" src="./detail_files/getscript(1)"></script>
+<script>// 初始化
+// var vConsole = new VConsole();</script>
+<script src="./detail_files/chunk-vendors.c84aebba.js"></script>
+<script src="./detail_files/chunk-common.af002347.js"></script>
+<script src="./detail_files/home.1d995f43.js"></script>
+<div class="van-toast van-toast--middle van-toast--loading" style="z-index: 2002; display: none;">
+    <div class="van-loading van-loading--spinner van-toast__loading"><span
+            class="van-loading__spinner van-loading__spinner--spinner"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    </div>
+    <div class="van-toast__text">加载中...</div>
+</div><!----><!---->
+
+</body>
+<script type="text/javascript">
+    function getNowDate() {
+        var date = new Date();
+        var year = date.getFullYear() // 年
+        var month = date.getMonth() + 1; // 月
+        var day = date.getDate(); // 日
+        var hour = date.getHours(); // 时
+        var minutes = date.getMinutes(); // 分
+        var seconds = date.getSeconds() //秒
+        var weekArr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+        var week = weekArr[date.getDay()];
+        // 给一位数数据前面加 “0”
+        if (month >= 1 && month <= 9) {
+            month = "0" + month;
+        }
+        if (day >= 0 && day <= 9) {
+            day = "0" + day;
+        }
+        if (hour >= 0 && hour <= 9) {
+            hour = "0" + hour;
+        }
+        if (minutes >= 0 && minutes <= 9) {
+            minutes = "0" + minutes;
+        }
+        if (seconds >= 0 && seconds <= 9) {
+            seconds = "0" + seconds;
+        }
+        document.getElementsByClassName("now-time")[0].innerHTML = " 当前时间:" + year + "-" + month + "-" + day + " " + hour + ":" + minutes + ":" + seconds;
+        //return currentdate;
+    }
+
+    setInterval("getNowDate()", 1);
+</script>
+
+<script type="text/javascript">
+
+    if (window.sessionStorage.length == 0) {
+        qp = prompt("请假人");
+        qy = prompt("请假原因");
+        sp = prompt("审批人");
+        sp2 = prompt("二级审批人");
+        sessionStorage.setItem("qp", qp);
+        sessionStorage.setItem("qy", qy);
+        sessionStorage.setItem("sp", sp);
+        sessionStorage.setItem("sp2", sp2);
+    } else {
+        qp = sessionStorage.getItem("qp")
+        qy = sessionStorage.getItem("qy")
+        sp = sessionStorage.getItem("sp")
+        sp2 = sessionStorage.getItem("sp2")
+    }
+
+
+    document.getElementsByClassName("ml-20 mr-5")[0].innerHTML = qp + " - 发起申请"
+    document.getElementsByClassName("font-normal flex-1 ml-5 break-all")[0].innerHTML = qy
+    document.getElementsByClassName("ml-20 mr-5")[1].innerHTML = "一级：" + sp + " - 审批<span style=\"color:#00ca75;\">通过</span>"
+    document.getElementsByClassName("ml-20 mr-5")[2].innerHTML = "二级：" + sp2 + " - 审批<span style=\"color:#00ca75;\">通过</span>"
+    var date = new Date();
+    var year = date.getFullYear() // 年
+    var month = date.getMonth() + 1; // 月
+    var day = date.getDate(); // 日
+    var hour = date.getHours(); // 时
+    var minutes = date.getMinutes(); // 分
+    var seconds = date.getSeconds() //秒
+
+    var day2 = day
+    var day3 = day2 + 1
+    //开始时间
+
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (day >= 0 && day <= 9) {
+        day = "0" + day;
+    }
+    if (hour >= 0 && hour <= 9) {
+        hour = "0" + hour;
+    }
+    if (minutes >= 0 && minutes <= 9) {
+        minutes = "0" + minutes;
+    }
+    if (seconds >= 0 && seconds <= 9) {
+        seconds = "0" + seconds;
+    }
+
+    document.getElementsByClassName("font-normal flex-1 ml-5 bold")[0].innerHTML = month + "-" + day + " " + (hour - 1) + ":" + minutes
+    //审批流程记录时间
+    document.getElementsByClassName("font-light ai-center no-shrink")[0].innerHTML = "<span>" + month + "-" + (day) + " " + (hour - 2) + ":" + minutes + "</span>"
+    document.getElementsByClassName("font-light ai-center no-shrink")[1].innerHTML = "<span>" + month + "-" + (day) + " " + (hour - 1) + ":" + (minutes - 5) + "</span>"
+    document.getElementsByClassName("font-light ai-center no-shrink")[2].innerHTML = "<span>" + month + "-" + (day) + " " + (hour - 1) + ":" + (minutes - 3) + "</span>"
+
+
+    if (day3 >= 0 && day3 <= 9) {
+        day3 = "0" + day3;
+    }
+    document.getElementsByClassName("font-normal flex-1 mr-4")[0].innerHTML = month + "-" + day + " " + (hour - 1) + ":" + minutes + " ~ " + month + "-" + (day3) + " " + (hour -1 + 24 - 24) + ":" + minutes + " " + " (共24小时00分)"
+    if(hour - 1 + 24 > 24){
+        hour = hour -1 + 24 - 24;
+        day2 = day2 + 1;
+    }
+    if (day2 >= 0 && day2 <= 9) {
+        day2 = "0" + day2;
+    }
+    //结束时间
+    document.getElementsByClassName("font-normal flex-1 ml-5 bold")[1].innerHTML = month + "-" + day2 + " " + hour + ":" + minutes
+    document.getElementsByClassName("totalDays")[0].innerHTML = " 24小时00分 "
+
+
+    document.cookie = "username=John Doe";
+</script>
+</html>
